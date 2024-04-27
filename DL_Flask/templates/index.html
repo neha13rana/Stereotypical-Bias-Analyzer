@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bias Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 100px;
+            background-color: #696969; 
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #fff; 
+        }
+
+        form {
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            height: 160px;
+            background-color: rgba(199, 21, 133, 0.3); 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff; 
+        }
+
+        textarea {
+            width: 100%;
+            padding: 7px;
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+            resize: vertical;
+            background-color: #444; 
+            color: #fff; 
+        }
+
+        input[type="submit"] {
+            background-color: #D3D3D3;
+            color: #800000; 
+            border: none;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stereotypical Bias Analyzer</h1>
+    <form action="/" method="post">
+        <label for="text">Enter Text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 100px;
+            background-color: #696969;
+            color: #fff; 
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            background-color: rgba(199, 21, 133, 0.2); 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #fff; 
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            color: #fff; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p>Input Text: {{ text }}</p>
+        <p>Bias Identified: {{ label }}</p>
+    </div>
+</body>
+</html>
