@@ -67,7 +67,7 @@ language.
 While our study demonstrates promising results in bias
 identification, we acknowledge the inherent challenge posed
 by biased training data. Biases within the training set can
-stem from various sources, including societal prejudices, algorithmic biases, and sampling biases. These biases may result
+stem from various sources, including societal prejudices, algorithmic biases, and sampling biases. These biases may result
 in skewed representations of certain demographic groups or
 perspectives, potentially leading to inaccurate predictions by
 our model, another limitation to consider is the number of bias
