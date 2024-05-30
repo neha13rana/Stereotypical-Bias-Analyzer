@@ -1,5 +1,4 @@
 # Stereotypical bias analyzer
-In this project we are created a Stereotypical bias analyser....
 
 Steps to use this website :
 1) Pip install flask
