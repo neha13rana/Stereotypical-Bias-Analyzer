@@ -8,16 +8,18 @@ Steps to use this website :
 
 Identifiable bias type from our study & project :
 
-Race Color,
-Socioeconomic,
-Gender,
-Disability,
-Nationality,
-Sexual Orientation,
-Physical Appearance,
-Religion,
-Age,
-Profession.
+(These biases are labeled as 0, 1, 2,...,9.)
+
+Race Color(0),
+Socioeconomic(1),
+Gender(2),
+Disability(3),
+Nationality(4),
+Sexual Orientation(5),
+Physical Appearance(6),
+Religion(7),
+Age(8),
+Profession(9).
 
 Enter any type of input sentence from this label and check the bias type of the sentence.
 
