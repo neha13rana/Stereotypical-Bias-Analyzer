@@ -1,10 +1,9 @@
 # Stereotypical bias analyzer
 
-Steps to use this website :
+Stereotypical bias, an extensive cognitive phenomena, continues to impact perceptions, decisions, and behaviors across a wide range of human interactions.Because pre-trained
+language models are quite prominent and are trained on large real-world datasets, there are concerns that these models could incorporate and reinforce stereotypical biases. The necessity to measure the biases inherent in these models is discussed in this work. Previous research usually assesses pre-trained language models using a small number of artificially constructed bias assessing sentences. In order to offer a comprehensive evaluation, we present a novel dataset that combines four distinct datasets to analyze stereotyped biases in ten distinct domains: race/color, socioeconomic, gender, disability, nationality, sexual orientation, physical-appearance, religion, age, profession. We analyze well known models like BERT and RoBERTa systematically, exposing their tendency to show considerable stereotypical biases in a variety of domains. Our results highlight the pervasive nature of the typical biases present in these models are and emphasize how critical it is to eliminate bias in applications involving natural language processing.
 
-1) Pip install flask
-2) Download the requirement.txt
-3) write Python app.py in the cmd after downloading this folder
+<hr>
 
 Identifiable bias type from our study & project :
 
@@ -23,9 +22,15 @@ Profession(9).
 
 Enter any type of input sentence from this label and check the bias type of the sentence.
 
-Stereotypical bias, an extensive cognitive phenomena, continues to impact perceptions, decisions, and behaviors across a wide range of human interactions.Because pre-trained
-language models are quite prominent and are trained on large real-world datasets, there are concerns that these models could incorporate and reinforce stereotypical biases. The necessity to measure the biases inherent in these models is discussed in this work. Previous research usually assesses pre-trained language models using a small number of artificially constructed bias assessing sentences. In order to offer a comprehensive evaluation, we present a novel dataset that combines four distinct datasets to analyze stereotyped biases in ten distinct domains: race/color, socioeconomic, gender, disability, nationality, sexual orientation, physical-appearance, religion, age, profession. We analyze well known models like BERT and RoBERTa systematically, exposing their tendency to show considerable stereotypical biases in a variety of domains. Our results highlight the pervasive nature of the typical biases present in these models are and emphasize how critical it is to eliminate bias in applications involving natural language processing.
+<hr>
 
+**Steps to use this website :**
+
+1) Pip install flask
+2) Download the requirement.txt
+3) write Python app.py in the cmd after downloading this folder
+
+<hr>
 
 **Literature Review :**
 
@@ -56,6 +61,8 @@ the model’s resilience and potency in identifying minute
 linguistic clues that point to biases in text written in natural
 language. 
 
+<hr>
+
 1)Input:
 
 ![WhatsApp Image 2024-04-29 at 09 59 47_ed824d43](https://github.com/neha13rana/Stereotypical-Bias-Analyzer/assets/121093178/6dc2d597-ba27-4044-b126-1e3e0787c3f8)
@@ -63,6 +70,8 @@ language.
 2)Output:
 
 ![WhatsApp Image 2024-04-29 at 10 00 03_ee57b731](https://github.com/neha13rana/Stereotypical-Bias-Analyzer/assets/121093178/74f2b060-e010-49fb-b7e5-67fc43b39768)
+
+<hr>
 
 **Limitation :**
 
@@ -74,6 +83,8 @@ in skewed representations of certain demographic groups or
 perspectives, potentially leading to inaccurate predictions by
 our model, another limitation to consider is the number of bias
 classes represented in our model.
+
+<hr>
 
 **Conclusion :**
 
